@@ -12,11 +12,15 @@ const config: Config = {
         primary: "#3B3B3B",
         secondary: "#737373",
         tertiary: "#585660",
+        icon: "#8F8F8F",
       },
       backgroundColor: {
         primary: "#EEEEEE",
         secondary: "#404040",
         tertiary: "#585660",
+      },
+      borderColor: {
+        primary: "#8F8F8F",
       },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",

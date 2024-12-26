@@ -8,7 +8,7 @@ export default function Badge({ text, className }: BadgeProps) {
   return (
     <span
       className={clsx(
-        "text-primary rounded-[4px] py-1 px-3 capitalize bg-white",
+        "text-primary flex justify-center items-center rounded-[4px] py-2 px-3 capitalize bg-white w-[57px] h-[32px]",
         className
       )}
     >
